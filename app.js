@@ -26,7 +26,9 @@
     beige: "#d4c4a8",
     rosa: "#ec4899",
     gris: "#94a3b8",
-    dorado: "linear-gradient(135deg, #c9a227, #e0c060)"
+    dorado: "linear-gradient(135deg, #c9a227, #e0c060)",
+    naranja: "#f97316",
+    morado: "#a855f7"
   };
 
   function whatsappLink(productName, brand) {
@@ -108,6 +110,7 @@
         <div class="product-info">
           <span class="product-brand">${p.brand}</span>
           <h3 class="product-name">${p.name}</h3>
+          <p class="product-price">S/ ${p.price.toFixed(2)}</p>
           <div class="product-colors">
             ${p.colors
               .map(
@@ -136,6 +139,7 @@
       </div>
       <p class="modal-brand">${p.brand}</p>
       <h2 class="modal-name">${p.name}</h2>
+      <p class="modal-price">S/ ${p.price.toFixed(2)}</p>
       <div class="modal-tags">
         ${p.colors.map((c) => `<span class="modal-tag">${c}</span>`).join("")}
         ${p.category ? `<span class="modal-tag">${p.category}</span>` : ""}

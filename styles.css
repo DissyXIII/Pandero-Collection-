@@ -283,6 +283,8 @@ button, select, input { font-family: inherit; }
 .color-btn[data-color="rosa"] { background: #ec4899; }
 .color-btn[data-color="gris"] { background: #94a3b8; }
 .color-btn[data-color="dorado"] { background: linear-gradient(135deg, #c9a227, #e0c060); }
+.color-btn[data-color="naranja"] { background: #f97316; }
+.color-btn[data-color="morado"] { background: #a855f7; }
 
 .btn-reset {
   padding: 0.55rem 1rem;
@@ -371,6 +373,12 @@ button, select, input { font-family: inherit; }
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.3;
+.product-price {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin: 0.15rem 0 0.2rem;
+}
 }
 .product-colors {
   display: flex;
@@ -575,6 +583,12 @@ button, select, input { font-family: inherit; }
   font-size: 1.35rem;
   font-weight: 600;
   margin-bottom: 0.6rem;
+.modal-price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin-bottom: 0.8rem;
+}
 }
 .modal-tags {
   display: flex;
